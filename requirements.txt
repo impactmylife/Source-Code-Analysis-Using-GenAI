@@ -3,5 +3,7 @@ tiktoken # This is the dependency of Openai
 chromadb==0.4.4 # For the VectorDB
 langchain==0.0.249
 flask
-GitPython # For cloning the git repository that we shall be using for the RAG document in order to interact by asking question from 
+GitPython # For cloning the git repository that we shall be using for the RAG document in order to interact by asking question from.
+# it helps to clone any type of git repository
 python-dotenv # to be able to read the credentials from the .env file
+-e .
